@@ -33,7 +33,7 @@ INSERT INTO ScrumTeam VALUES (3,'Phoebe','Buffay','ScrumMaster');
 INSERT INTO ScrumTeam VALUES (4,'Michael','Scofield','PO');
 
 
---how to update data
+-- how to update data
 /*
 UPDATE table_name
 SET column1 = value1,
@@ -45,7 +45,7 @@ UPDATE ScrumTeam
 SET jobtitle = 'Tester'
 WHERE emp_id = 4;
 
---Delete from table 
+-- Delete from table
 /*
 DELETE FROM table_name
 WHERE condition;
@@ -53,6 +53,6 @@ WHERE condition;
 DELETE FROM ScrumTeam
 WHERE emp_id = 3;
 
---saving changes
+-- saving changes
 commit;
 

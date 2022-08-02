@@ -11,7 +11,7 @@ select names from developers
 intersect
 select names from testers;
 
---how to find duplicate names in employees table
+-- how to find duplicate names in employees table
 
 select  first_name,count(*)
 from employees

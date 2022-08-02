@@ -1,5 +1,5 @@
 
---get me all employees firstname, lastname and their managers first and lastname
+-- get me all employees firstname, lastname and their managers first and lastname
 
 select employee_id,first_name,last_name,manager_id from employees;
 
@@ -8,4 +8,4 @@ from employees e1 left join employees e2
 on e1.manager_id = e2.employee_id
 order by e1.employee_id;
 
---BREAK UNTIL 12:15
+-- BREAK UNTIL 12:15
